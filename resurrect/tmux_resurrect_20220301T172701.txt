@@ -1,0 +1,15 @@
+pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	LMS	2	0	:##	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	LMS	2	0	:##	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	zsh	:
+pane	LMS	2	0	:##	3	:/home/pheon/Documents/React/Apps/AMS/vision-ams-frontend	1	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	LMS	2	0	:##	4	:/home/pheon/Documents/React/Apps/AMS/server	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	LMS	3	0	:##-	1	:/home/pheon/Documents/React/Git/mpesa-api	0	zsh	:
+pane	LMS	3	0	:##-	2	:/home/pheon/Documents/React/Git/mpesa-api	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	LMS	4	0	:	1	:/home/pheon/Documents/React/Apps/cryptapp	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	MISC	1	1	:*	1	:/home/pheon	1	mpv	:mpv /home/pheon/Downloads/Movies/Anime/fullmetal-alchemist-brotherhood/fullmetal-alchemist-brotherhood-episode-60.mp4 /home/pheon/Downloads/Mov
+window	LMS	1	:fend	1	:*	bb7d,182x72,0,0,0	off
+window	LMS	2	:bend	0	:##	2e5b,197x72,0,0{99x72,0,0[99x36,0,0,1,99x35,0,37,7],97x72,100,0[97x36,100,0,2,97x35,100,37,8]}	off
+window	LMS	3	:python	0	:##-	e80b,197x72,0,0[197x22,0,0,4,197x49,0,23,9]	off
+window	LMS	4	:nvim	0	:	bbc2,154x72,0,0,5	:
+window	MISC	1	:mpv	1	:*	d0e0,290x68,0,0,3	:
+state	LMS	

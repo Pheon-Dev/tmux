@@ -1,0 +1,18 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/.config/nvim/lua/notify-config	1	nvim	:nvim
+pane	CONFIG	2	0	:##	1	:/home/pheon/.config/dunst	1	nvim	:nvim
+pane	CONFIG	3	0	:-	1	:/home/pheon/Documents/Play-Ground/ReactJS/test-app	1	zsh	:
+pane	LMS	1	1	:##*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend/src/components/Loan/Payments	1	nvim	:nvim
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /usr/bin/sanity start
+pane	LMS	3	0	:##	1	:/home/pheon/Documents/React/Git/Dashboard/tua-react-admin	1	sudo	:sudo pacman -Syyu
+pane	MISC	1	1	:*	1	:/home/pheon	1	zsh	:
+pane	MISC	2	0	:-	1	:/run/media/arco/home/pheon	1	mc	:mc
+window	CONFIG	1	:nvim	1	:*	be3d,197x72,0,0,0	off
+window	CONFIG	2	:polybar	0	:##	b981,140x72,0,0,4	off
+window	CONFIG	3	:play	0	:-	b962,211x72,0,0,5	off
+window	LMS	1	:nvim	1	:##*	bf9e,282x73,0,0,1	:
+window	LMS	2	:bend	0	:##-	4f1e,192x45,0,0{95x45,0,0,2,96x45,96,0,3}	off
+window	LMS	3	:python	0	:##	c1c4,192x45,0,0,7	off
+window	MISC	1	:zsh	1	:*	bba5,282x72,0,0,8	:
+window	MISC	2	:mc	0	:-	bfa6,282x73,0,0,9	:
+state	CONFIG	

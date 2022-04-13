@@ -1,0 +1,15 @@
+pane	CONFIG	1	0	:-	1	:/home/pheon/Music	0	mpv	:mpv --shuffle ./bongo
+pane	CONFIG	1	0	:-	2	:/home/pheon/Documents/React/Git	1	zsh	:
+pane	CONFIG	2	0	:	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	CONFIG	3	1	:*	1	:/home/pheon/Documents/React/Git/react-portfolio-website	1	nvim	:nvim
+pane	LMS	1	1	:##*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	LMS	2	0	:##	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /usr/bin/sanity start
+pane	LMS	3	0	:-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS	1	zsh	:zsh
+window	CONFIG	1	:aria	0	:-	d933,182x73,0,0{91x73,0,0,10,90x73,92,0,11}	off
+window	CONFIG	2	:nvim	0	:	c1c3,192x45,0,0,6	off
+window	CONFIG	3	:play	1	:*	bf84,182x73,0,0,7	off
+window	LMS	1	:fend	1	:##*	bf7f,182x73,0,0,2	off
+window	LMS	2	:send	0	:##	5de0,182x73,0,0{91x73,0,0,3,90x73,92,0,4}	off
+window	LMS	3	:etc ..	0	:-	bf82,182x73,0,0,5	off
+state	CONFIG	LMS

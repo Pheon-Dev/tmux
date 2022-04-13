@@ -1,0 +1,12 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/.local/share/nvim/site/pack/packer/start/tokyonight.nvim/lua/tokyonight	1	nvim	:nvim
+pane	CONFIG	2	0	:	1	:/home/pheon	1	zsh	:
+pane	CONFIG	3	0	:-	1	:/home/pheon/Documents/Play-Ground/ReactJS/test-app	1	nvim	:nvim
+pane	LMS	1	1	:##*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	node	:node /usr/bin/sanity start
+window	CONFIG	1	:nvim	1	:*	bf7d,182x73,0,0,0	off
+window	CONFIG	2	:zsh	0	:	c241,193x45,0,0,4	:
+window	CONFIG	3	:play	0	:-	bf82,182x73,0,0,5	off
+window	LMS	1	:nvim	1	:##*	bf7e,182x73,0,0,1	:
+window	LMS	2	:bend	0	:##-	d91e,193x45,0,0{96x45,0,0,2,96x45,97,0,3}	off
+state	CONFIG	LMS

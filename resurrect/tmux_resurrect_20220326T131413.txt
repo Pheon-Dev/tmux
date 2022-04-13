@@ -1,0 +1,4 @@
+pane	CONFIG	1	1	:*	1	:/run/media/arco/usr/local	1	python	:/usr/bin/python -O /usr/bin/ranger
+pane	CONFIG	1	1	:*	2	:/home/pheon	0	sudo	:sudo cp -r /usr/lib /run/media/arco/usr
+window	CONFIG	1	:python	1	:*	e997,282x72,0,0[282x36,0,0,0,282x35,0,37,1]	:
+state	CONFIG	

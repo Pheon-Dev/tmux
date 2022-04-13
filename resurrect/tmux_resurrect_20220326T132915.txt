@@ -1,0 +1,6 @@
+pane	CONFIG	1	1	:*	1	:/run/media/arco	1	bash	:sudo chroot /run/media/arco
+pane	CONFIG	1	1	:*	2	:/home/pheon	0	zsh	:
+pane	CONFIG	2	0	:-	1	:/home/pheon	1	zsh	:
+window	CONFIG	1	:python	1	:*	e997,282x72,0,0[282x36,0,0,0,282x35,0,37,1]	off
+window	CONFIG	2	:zsh	0	:-	bb9f,282x72,0,0,2	:
+state	CONFIG	

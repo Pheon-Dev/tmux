@@ -1,0 +1,14 @@
+pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/AMS/vision-ams-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	node	:node /home/pheon/.nvm/versions/node/v17.4.0/bin/sanity start
+pane	LMS	2	0	:##-	3	:/home/pheon/Documents/React/Apps/AMS/vision-ams-frontend	1	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	LMS	2	0	:##-	4	:/home/pheon/Documents/React/Apps/AMS/server	0	zsh	:
+pane	LMS	3	0	:	1	:/home/pheon/Documents/React/Git/mpesa-api	1	zsh	:
+pane	LMS	4	0	:	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	MISC	1	1	:*	1	:/home/pheon	1	mpv	:mpv /home/pheon/Downloads/Movies/Anime/mob-psycho-100/mob-psycho-100_01.mp4 /home/pheon/Downloads/Movies/Anime/mob-psycho-100/mob-psycho-100_02
+window	LMS	1	:fend	1	:*	c23d,193x45,0,0,0	off
+window	LMS	2	:bend	0	:##-	4237,193x45,0,0{96x45,0,0[96x21,0,0,1,96x23,0,22,7],96x45,97,0[96x21,97,0,2,96x23,97,22,8]}	off
+window	LMS	3	:python	0	:	c246,193x45,0,0,9	off
+window	LMS	4	:nvim	0	:	bd02,124x44,0,0,5	:
+window	MISC	1	:mpv	1	:*	d0e0,290x68,0,0,3	:
+state	LMS	

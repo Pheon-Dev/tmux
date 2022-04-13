@@ -1,0 +1,10 @@
+pane	CONFIG	1	1	:##*	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	CONFIG	2	0	:##-	1	:/home/pheon/.config/arco-dwm	1	nvim	:nvim
+pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	node	:node /usr/bin/sanity start
+window	CONFIG	1	:nvim	1	:##*	bdc4,192x44,0,0,7	off
+window	CONFIG	2	:dwm	0	:##-	6090,114x45,0,0,11	off
+window	LMS	1	:fend	1	:*	c63d,193x46,0,0,0	off
+window	LMS	2	:send	0	:##-	96cf,282x72,0,0{141x72,0,0,1,140x72,142,0,3}	off
+state	LMS	CONFIG

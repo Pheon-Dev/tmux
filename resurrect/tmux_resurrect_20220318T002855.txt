@@ -1,0 +1,11 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	CONFIG	2	0	:	1	:/home/pheon/.config/zsh	0	nvim	:zsh
+pane	CONFIG	2	0	:	2	:/home/pheon/Documents/Vision-LMS/vision-lms-frontend	0	zsh	:
+pane	CONFIG	2	0	:	3	:/home/pheon/Documents/Play-Ground/ReactJS	1	nvim	:nvim
+pane	CONFIG	3	0	:-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend/src	1	mc	:mc
+pane	CONFIG	4	0	:	1	:/home/pheon/.config/zsh	1	nvim	:nvim
+window	CONFIG	1	:nvim	1	:*	bdbd,139x72,0,0,0	:
+window	CONFIG	2	:python	0	:	e8d5,281x72,0,0{140x72,0,0[140x36,0,0,1,140x35,0,37,5],140x72,141,0,4}	off
+window	CONFIG	3	:mc	0	:-	bdbf,139x72,0,0,2	:
+window	CONFIG	4	:nvim	0	:	bc03,183x72,0,0,6	:
+state	CONFIG	

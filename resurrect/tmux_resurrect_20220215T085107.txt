@@ -1,0 +1,6 @@
+pane	V-LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	1	1	:*	2	:/home/pheon/Documents/React/Git/tailwind-dashboard	0	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+window	V-LMS	1	:serve	1	:*	a463,192x44,0,0{96x44,0,0,9,95x44,97,0,15}	off
+window	V-LMS	2	:node	0	:##-	5f13,192x44,0,0,14	:
+state	V-LMS	

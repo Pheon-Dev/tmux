@@ -1,0 +1,4 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/.config/arco-dwm	0	nvim	:nvim
+pane	CONFIG	1	1	:*	2	:/home/pheon/.config/arco-dwm/dwm-bar	1	sudo	:sudo pacman -Syyu
+window	CONFIG	1	:sudo	1	:*	0b6f,282x72,0,0{187x72,0,0,0,94x72,188,0,1}	:
+state	CONFIG	

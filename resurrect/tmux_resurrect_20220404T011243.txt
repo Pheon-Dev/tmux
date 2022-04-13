@@ -1,0 +1,8 @@
+pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /usr/bin/sanity start
+pane	LMS	3	0	:	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS	1	zsh	:
+window	LMS	1	:dev	1	:*	bb7d,182x72,0,0,0	off
+window	LMS	2	:srv	0	:##-	ccd3,182x72,0,0{91x72,0,0,1,90x72,92,0,3}	off
+window	LMS	3	:msc	0	:	bb7f,182x72,0,0,2	off
+state	LMS	

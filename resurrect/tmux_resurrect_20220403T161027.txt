@@ -1,0 +1,19 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/Music	1	mpv	:mpv --shuffle ./bongo
+pane	CONFIG	1	1	:*	2	:/home/pheon/Downloads/Movies	0	zsh	:
+pane	CONFIG	2	0	:##	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	CONFIG	2	0	:##	2	:/home/pheon/Documents/Play-Ground/ReactJS/Payments	0	nvim	:nvim
+pane	CONFIG	3	0	:##-	1	:/home/pheon/Documents/Play-Ground	0	mpv	:mpv /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-10.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-11.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-12.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-13.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-14.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-15.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-16.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-17.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-18.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/Steins/steinsgate-ep-19.mp4
+pane	CONFIG	3	0	:##-	2	:/home/pheon/Downloads/Movies	1	zsh	:
+pane	LMS	1	0	:-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	LMS	2	0	:##	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /usr/bin/sanity start
+pane	LMS	3	1	:##*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS	0	mpv	:zsh
+pane	LMS	3	1	:##*	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS	0	mpv	:mpv /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_01.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_02.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_03.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_04.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_05.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_06.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_07.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_08.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_09.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_10.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_11.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_12.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_13.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_14.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_15.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_16.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_17.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_18.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_19.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_20.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_21.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_22.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_23.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/clannad/clannad_24.mp4
+pane	LMS	3	1	:##*	3	:/home/pheon	1	zsh	:
+window	CONFIG	1	:aria	1	:*	849c,168x35,0,0{84x35,0,0,10,83x35,85,0,11}	off
+window	CONFIG	2	:nvim	0	:##	3bf6,168x35,0,0{84x35,0,0,6,83x35,85,0,12}	off
+window	CONFIG	3	:play	0	:##-	44a6,168x35,0,0{84x35,0,0,15,83x35,85,0,20}	off
+window	LMS	1	:fend	0	:-	c1ff,168x73,0,0,2	off
+window	LMS	2	:send	0	:##	5de0,182x73,0,0{91x73,0,0,3,90x73,92,0,4}	off
+window	LMS	3	:etc ..	1	:##*	1ebc,168x73,0,0{84x73,0,0,5,83x73,85,0[83x36,85,0,16,83x36,85,37,19]}	off
+state	CONFIG	LMS

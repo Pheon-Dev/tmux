@@ -1,0 +1,14 @@
+pane	2	1	1	:*	1	:/home/pheon/.config/nvim	0	nvim	:nvim
+pane	2	1	1	:*	2	:/home/pheon/Dotfiles/Test	1	nvim	:nvim
+pane	CONFIG	1	1	:*	1	:/home/pheon/Downloads/Movies/Anime	1	zsh	:
+pane	V-LMS	1	0	:-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	2	1	:*	1	:/home/pheon/Documents/React/Git/project_professional_portfolio	0	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	2	1	:*	2	:/home/pheon/Documents/React/Git/project_shareme_social_media	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	3	0	:##	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	V-LMS	3	0	:##	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /home/pheon/.nvm/versions/node/v17.4.0/bin/sanity start
+window	2	1	:nvim	1	:*	842b,283x69,0,0{141x69,0,0,7,141x69,142,0,8}	:
+window	CONFIG	1	:zsh	1	:*	ce1e,70x69,0,0,1	:
+window	V-LMS	1	:fend	0	:-	bb7d,182x72,0,0,0	off
+window	V-LMS	2	:bend	1	:*	4cd9,182x72,0,0{91x72,0,0,2,90x72,92,0,6}	off
+window	V-LMS	3	:send	0	:##	c7fe,192x44,0,0{96x44,0,0,3,95x44,97,0,4}	off
+state	CONFIG	

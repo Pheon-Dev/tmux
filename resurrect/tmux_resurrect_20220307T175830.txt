@@ -1,0 +1,9 @@
+pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	node	:node /home/pheon/.nvm/versions/node/v17.4.0/bin/sanity start
+pane	LMS	2	0	:##-	3	:/home/pheon	0	go	:go get -u github.com/wtfutil/wtf
+pane	LMS	3	0	:	1	:/home/pheon/.local/share/lunarvim/lvim	1	zsh	:
+window	LMS	1	:nvim	1	:*	5f30,168x72,0,0,11	:
+window	LMS	2	:bend	0	:##-	8589,168x72,0,0{83x72,0,0[83x35,0,0,1,83x36,0,36,7],84x72,84,0,8}	off
+window	LMS	3	:zsh	0	:	5f2f,168x72,0,0,10	:
+state	LMS	

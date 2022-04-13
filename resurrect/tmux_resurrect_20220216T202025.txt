@@ -1,0 +1,13 @@
+pane	V-LMS	1	0	:	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	2	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	V-LMS	2	1	:*	2	:/home/pheon/Downloads/Movies	1	zsh	:
+pane	V-LMS	2	1	:*	3	:/home/pheon/Documents/React/Apps	0	zsh	:
+pane	V-LMS	3	0	:-	1	:/home/pheon/.config/nvim	0	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua plugins/init.lua
+pane	V-LMS	3	0	:-	2	:/home/pheon/.config/nvim	1	nvim	:nvim
+nvim
+pane	V-LMS	4	0	:##	1	:/home/pheon/Documents/React/Apps	1	python	:/usr/bin/python /usr/bin/glances
+window	V-LMS	1	:nvim	0	:	bb7d,182x72,0,0,0	:
+window	V-LMS	2	:zsh	1	:*	2267,182x72,0,0{91x72,0,0,1,90x72,92,0[90x36,92,0,5,90x35,92,37,6]}	:
+window	V-LMS	3	:nvim	0	:-	ccd7,182x72,0,0{91x72,0,0,2,90x72,92,0,3}	:
+window	V-LMS	4	:python	0	:##	bdc5,192x44,0,0,8	:
+state	V-LMS	

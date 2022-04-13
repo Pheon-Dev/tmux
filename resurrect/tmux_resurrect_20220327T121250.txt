@@ -1,0 +1,4 @@
+pane	0	1	1	:*	1	:/home/pheon/Downloads/Scripts	1	zsh	:
+pane	0	1	1	:*	2	:/home/pheon/Downloads/Movies	0	zsh	:
+window	0	1	:zsh	1	:*	5ccf,140x72,0,0[140x36,0,0,0,140x35,0,37,1]	:
+state	0	

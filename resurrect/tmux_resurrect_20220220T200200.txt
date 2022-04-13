@@ -1,0 +1,16 @@
+pane	2	1	0	:-	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	2	1	0	:-	2	:/home/pheon/Dotfiles/Test	0	nvim	:nvim
+pane	2	2	1	:*	1	:/home/pheon	1	python	:/usr/bin/python /usr/bin/glances
+pane	CONFIG	1	1	:*	1	:/home/pheon/Downloads	1	mpv	:mpv /home/pheon/Downloads/Movies/Anime/fullmetal-alchemist-brotherhood/fullmetal-alchemist-brotherhood-episode-40.mp4 /home/pheon/Downloads/Movies/Anime/fullmetal-alchemist-brotherhood
+pane	V-LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	2	0	:-	1	:/home/pheon/Documents/React/Git/project_professional_portfolio/backend_sanity_portfolio	0	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	2	0	:-	2	:/home/pheon/Documents/React/Git/project_shareme_social_media/frontend_sanity	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	V-LMS	3	0	:##	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	V-LMS	3	0	:##	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /home/pheon/.nvm/versions/node/v17.4.0/bin/sanity start
+window	2	1	:nvim	0	:-	842b,283x69,0,0{141x69,0,0,7,141x69,142,0,8}	:
+window	2	2	:python	1	:*	d626,283x69,0,0,9	:
+window	CONFIG	1	:mpv	1	:*	ba3e,113x34,0,0,1	:
+window	V-LMS	1	:fend	1	:*	bb7d,182x72,0,0,0	off
+window	V-LMS	2	:bend	0	:-	66c2,182x72,0,0{91x72,0,0,2,90x72,92,0,11}	off
+window	V-LMS	3	:send	0	:##	4cdc,182x72,0,0{91x72,0,0,3,90x72,92,0,4}	off
+state	V-LMS	

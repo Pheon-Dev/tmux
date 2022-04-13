@@ -1,0 +1,12 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon	1	zsh	:
+pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	node	:node /usr/bin/sanity start
+pane	LMS	3	0	:	1	:/home/pheon	1	zsh	:
+pane	MISC	1	1	:*	1	:/home/pheon/Downloads	1	zsh	:
+window	CONFIG	1	:zsh	1	:*	bb9e,282x72,0,0,1	:
+window	LMS	1	:dev	1	:*	bb7d,182x72,0,0,0	off
+window	LMS	2	:srv	0	:##-	d733,197x72,0,0{99x72,0,0,2,97x72,100,0,3}	off
+window	LMS	3	:msc	0	:	b981,140x72,0,0,4	off
+window	MISC	1	:zsh	1	:*	b822,97x72,0,0,5	:
+state	LMS	CONFIG

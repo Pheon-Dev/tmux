@@ -1,0 +1,4 @@
+pane	0	1	1	:*	1	:/usr/lib	0	python	:/usr/bin/python -O /usr/bin/ranger
+pane	0	1	1	:*	2	:/usr/lib	1	zsh	:
+window	0	1	:zsh	1	:*	8003,170x47,0,0[170x23,0,0,0,170x23,0,24,3]	:
+state	0	

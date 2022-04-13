@@ -1,0 +1,24 @@
+pane	CONFIG	1	0	:##-	1	:/home/pheon	1	mpv	:mpv /home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_01.mp4 /home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_02.mp4 /home/p
+pane	CONFIG	2	1	:*	1	:/home/pheon/Downloads/Movies/Anime/mob-psycho-100	1	zsh	:
+pane	LMS	1	0	:	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	LMS	2	0	:##	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	zsh	:
+pane	LMS	2	0	:##	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	zsh	:
+pane	LMS	2	0	:##	3	:/home/pheon/Documents/React/Apps/AMS/vision-ams-frontend	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	LMS	2	0	:##	4	:/home/pheon/Documents/React/Apps/AMS	0	zsh	:
+pane	LMS	3	0	:##	1	:/home/pheon/Music/Classic	1	mocp	:mocp
+pane	LMS	3	0	:##	2	:/home/pheon/Music/Alt-Rock	0	zsh	:
+pane	LMS	3	0	:##	3	:/home/pheon/Music/Alt-Rock	0	zsh	:
+pane	LMS	3	0	:##	4	:/home/pheon/Music/Alt-Rock	0	zsh	:
+pane	LMS	4	0	:	1	:/home/pheon/Documents/NextJS/Git/jsm_realestate/pages	0	python	:/usr/bin/python -O /usr/bin/ranger
+pane	LMS	4	0	:	2	:/home/pheon/Documents/NextJS/Git/jsm_realestate/utils	1	zsh	:
+pane	LMS	5	0	:-	1	:/home/pheon/Documents/CMT/AI	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	LMS	6	1	:*	1	:/home/pheon/Documents/React/Apps/AMS/vision-ams-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+window	CONFIG	1	:mpv	0	:##-	5ff7,125x35,0,0,18	:
+window	CONFIG	2	:zsh	1	:*	d4a4,85x21,0,0,25	:
+window	LMS	1	:nvim	0	:	5e90,114x44,0,0,11	off
+window	LMS	2	:bend	0	:##	8196,114x44,0,0{56x44,0,0[56x21,0,0,1,56x22,0,22,7],57x44,57,0[57x22,57,0,8,57x21,57,23,31]}	off
+window	LMS	3	:python	0	:##	5831,182x72,0,0{91x72,0,0[91x46,0,0,23,91x25,0,47,21],90x72,92,0[90x36,92,0,19,90x35,92,37,20]}	off
+window	LMS	4	:zsh	0	:	1959,114x44,0,0[114x22,0,0,32,114x21,0,23,33]	:
+window	LMS	5	:nvim	0	:-	5e94,114x44,0,0,34	:
+window	LMS	6	:nvim	1	:*	de97,114x44,0,0,28	:
+state	LMS	

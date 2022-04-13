@@ -1,0 +1,4 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/.config/arco-dwm	1	nvim	:nvim
+pane	CONFIG	1	1	:*	2	:/home/pheon	0	zsh	:
+window	CONFIG	1	:nvim	1	:*	06f7,225x72,0,0{158x72,0,0,0,66x72,159,0,1}	:
+state	CONFIG	

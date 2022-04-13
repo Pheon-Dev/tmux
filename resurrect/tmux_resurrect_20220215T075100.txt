@@ -1,0 +1,9 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	V-LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	zsh	:zsh
+pane	V-LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	V-LMS	3	0	:	1	:/home/pheon/Downloads/Movies	1	zsh	:
+window	CONFIG	1	:nvim	1	:*	5f12,192x44,0,0,13	off
+window	V-LMS	1	:fend	1	:*	bdc5,192x44,0,0,8	off
+window	V-LMS	2	:serve	0	:##-	bdc6,192x44,0,0,9	off
+window	V-LMS	3	:zsh	0	:	5df0,182x72,0,0,11	:
+state	V-LMS	

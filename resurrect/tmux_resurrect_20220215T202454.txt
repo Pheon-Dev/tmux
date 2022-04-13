@@ -1,0 +1,12 @@
+pane	V-LMS	1	0	:	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	zsh	:
+pane	V-LMS	1	0	:	2	:/home/pheon/Dotfiles/Test	1	nvim	:nvim
+pane	V-LMS	2	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	V-LMS	2	1	:*	2	:/home/pheon/Downloads/Movies	0	mpv	:mpv Anime/fullmetal-alchemist-brotherhood/fullmetal-alchemist-brotherhood-episode-30.mp4 Anime/fullmetal-alchemist-brotherhood/fullmetal-alchemist-brotherhood-episode-31.mp4 Anime/full
+pane	V-LMS	2	1	:*	3	:/home/pheon/Documents/React/Apps	1	zsh	:
+pane	V-LMS	3	0	:-	1	:/home/pheon/.config/nvim	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua plugins/init.lua
+pane	V-LMS	3	0	:-	2	:/home/pheon/.config/nvim	0	nvim	:nvim
+nvim
+window	V-LMS	1	:nvim	0	:	3961,192x44,0,0[192x22,0,0,0,192x21,0,23,4]	:
+window	V-LMS	2	:zsh	1	:*	1182,282x72,0,0{141x72,0,0,1,140x72,142,0[140x36,142,0,5,140x35,142,37,6]}	:
+window	V-LMS	3	:nvim	0	:-	96d0,282x72,0,0{141x72,0,0,2,140x72,142,0,3}	:
+state	V-LMS	

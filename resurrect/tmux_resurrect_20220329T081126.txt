@@ -1,0 +1,15 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/Downloads/Movies/Dogs	1	zsh	:
+pane	CONFIG	1	1	:*	2	:/home/pheon/Downloads/Movies	0	zsh	:
+pane	CONFIG	2	0	:-	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	CONFIG	3	0	:	1	:/home/pheon/Documents/Play-Ground/ReactJS/Payments	1	nvim	:nvim
+pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /usr/bin/sanity start
+pane	LMS	3	0	:	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS	1	zsh	:
+window	CONFIG	1	:aria	1	:*	1b53,282x73,0,0{141x73,0,0,1,140x73,142,0,9}	off
+window	CONFIG	2	:nvim	0	:-	c1c3,192x45,0,0,6	off
+window	CONFIG	3	:play	0	:	bf84,182x73,0,0,7	off
+window	LMS	1	:fend	1	:*	c1bf,192x45,0,0,2	off
+window	LMS	2	:send	0	:##-	d902,192x45,0,0{96x45,0,0,3,95x45,97,0,4}	off
+window	LMS	3	:etc ..	0	:	bb82,182x72,0,0,5	off
+state	CONFIG	LMS

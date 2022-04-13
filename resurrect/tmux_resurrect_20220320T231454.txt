@@ -1,0 +1,8 @@
+pane	CONFIG	1	1	:*	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	LMS	1	1	:##*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	LMS	2	0	:-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	node	:node /usr/bin/sanity start
+window	CONFIG	1	:nvim	1	:*	bb84,182x72,0,0,7	:
+window	LMS	1	:fend	1	:##*	bb7d,182x72,0,0,0	off
+window	LMS	2	:send	0	:-	96cf,282x72,0,0{141x72,0,0,1,140x72,142,0,3}	off
+state	CONFIG	LMS

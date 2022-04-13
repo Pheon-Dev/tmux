@@ -1,0 +1,17 @@
+pane	CONFIG	1	0	:-	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+nvim
+pane	CONFIG	1	0	:-	2	:/home/pheon/.config/nvim-joel	0	nvim	:nvim
+pane	CONFIG	2	1	:*	1	:/home/pheon/Dotfiles/Test	1	nvim	:nvim
+pane	LMS	1	0	:-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
+pane	LMS	2	0	:##	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
+pane	LMS	2	0	:##	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	node	:node /home/pheon/.nvm/versions/node/v17.4.0/bin/sanity start
+pane	LMS	2	0	:##	3	:/home/pheon/Documents/React/Apps	1	zsh	:
+pane	LMS	3	0	:	1	:/home/pheon/Documents/React/Git/mpesa-api	1	zsh	:
+pane	LMS	4	1	:*	1	:/home/pheon/.local/share/lunarvim/lvim	1	zsh	:
+window	CONFIG	1	:nvim	0	:-	54ba,182x72,0,0{91x72,0,0,13,90x72,92,0,14}	:
+window	CONFIG	2	:nvim	1	:*	5df4,182x72,0,0,15	:
+window	LMS	1	:nvim	0	:-	5f30,168x72,0,0,11	:
+window	LMS	2	:bend	0	:##	8589,168x72,0,0{83x72,0,0[83x35,0,0,1,83x36,0,36,7],84x72,84,0,8}	off
+window	LMS	3	:python	0	:	be06,168x72,0,0,9	off
+window	LMS	4	:zsh	1	:*	5f2f,168x72,0,0,10	:
+state	CONFIG	

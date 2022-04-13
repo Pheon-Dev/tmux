@@ -1,0 +1,18 @@
+pane	CONFIG	1	1	:##*	1	:/home/pheon/.local/share/nvim/site/pack/packer/start/tokyonight.nvim/lua/tokyonight	1	nvim	:nvim
+pane	CONFIG	2	0	:-	1	:/home/pheon/.config/vifm	1	zsh	:
+pane	CONFIG	3	0	:	1	:/home/pheon	1	zsh	:
+pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend/src/components/Admin/pages	1	nvim	:nvim
+pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /usr/bin/sanity start
+pane	LMS	3	0	:##	1	:/home/pheon/Documents/React/Git/Dashboard/tua-react-admin	1	sudo	:sudo pacman -Syyu
+pane	MISC	1	0	:-	1	:/home/pheon	1	mpv	:mpv /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_01.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_02.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_03.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_04.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_05.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_06.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_07.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_08.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_09.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_10.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_11.mp4 /run/media/arco/home/pheon/Downloads/Movies/Anime/doro-he-doro/dorohedoro_12.mp4
+pane	MISC	2	1	:*	1	:/run/media/arco/home/pheon	1	mc	:mc
+window	CONFIG	1	:nvim	1	:##*	c1fd,168x73,0,0,0	off
+window	CONFIG	2	:polybar	0	:-	bf81,182x73,0,0,4	off
+window	CONFIG	3	:play	0	:	bf82,182x73,0,0,5	off
+window	LMS	1	:nvim	1	:*	c63e,193x46,0,0,1	:
+window	LMS	2	:bend	0	:##-	4f1e,192x45,0,0{95x45,0,0,2,96x45,96,0,3}	off
+window	LMS	3	:python	0	:##	c1c4,192x45,0,0,7	off
+window	MISC	1	:mpv	0	:-	c205,168x73,0,0,8	:
+window	MISC	2	:mc	1	:*	c646,193x46,0,0,9	:
+state	LMS	MISC
