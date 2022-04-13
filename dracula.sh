@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # setting the locale, some users have issues with different locales, this forces the correct one
+# ~/.tmux.conf
 export LC_ALL=en_US.UTF-8
 
 current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -19,8 +20,8 @@ main()
   show_left_icon_padding=$(get_tmux_option "@dracula-left-icon-padding" 1)
   show_military=$(get_tmux_option "@dracula-military-time" false)
   show_timezone=$(get_tmux_option "@dracula-show-timezone" true)
-  show_left_sep=$(get_tmux_option "@dracula-show-left-sep" )
-  show_right_sep=$(get_tmux_option "@dracula-show-right-sep" )
+  show_left_sep=$(get_tmux_option "@dracula-show-left-sep" ⦚)
+  show_right_sep=$(get_tmux_option "@dracula-show-right-sep" ⦚)
   show_border_contrast=$(get_tmux_option "@dracula-border-contrast" false)
   show_day_month=$(get_tmux_option "@dracula-day-month" false)
   show_refresh=$(get_tmux_option "@dracula-refresh-rate" 5)
@@ -28,6 +29,9 @@ main()
 
   # Dracula Color Pallette
   white='#f8f8f2'
+  grey_one='#4e4e4e'
+  grey_two='#666666'
+  grey_three='#3a3a3a'
   gray='#44475a'
   dark_gray='#282a36'
   light_purple='#bd93f9'
@@ -39,6 +43,7 @@ main()
   pink='#ff79c6'
   yellow='#ffff0f'
   black='#000000'
+  black_one='#1c1c1c'
   crimson='#67101b'
   blue='#6790eb'
 
@@ -105,24 +110,24 @@ main()
 
   # pane border styling
   if $show_border_contrast; then
-    tmux set-option -g pane-active-border-style "fg=${blue}"
+    tmux set-option -g pane-active-border-style "fg=${dark_purple}"
   else
     tmux set-option -g pane-active-border-style "fg=${light_purple}"
   fi
-  tmux set-option -g pane-border-style "fg=${gray}"
+  tmux set-option -g pane-border-style "fg=${black_one}"
 
   # message styling
-  tmux set-option -g message-style "bg=${gray},fg=${white}"
+  tmux set-option -g message-style "bg=${black_one},fg=${white}"
 
   # status bar
-  tmux set-option -g status-style "bg=${gray},fg=${white}"
+  tmux set-option -g status-style "bg=${black_one},fg=${white}"
 
   # Status left
   if $show_powerline; then
-    tmux set-option -g status-left "#[bg=${yellow},fg=${dark_gray}]#{?client_prefix,#[bg=${green}],} ${left_icon} #[fg=${yellow},bg=${gray}]#{?client_prefix,#[fg=${green}],}${left_sep}"
-    powerbg=${gray}
+    tmux set-option -g status-left "#[bg=${grey_three},fg=${white}]#{?client_prefix,#[fg=${green}],} ${left_icon} #[fg=${grey_three},bg=${grey_one}]#{?client_prefix,#[fg=${grey_three}],}${left_sep}#[fg=${grey_one},bg=${black_one}]${left_sep}"
+    powerbg=${black_one}
   else
-    tmux set-option -g status-left "#[bg=${yellow},fg=${dark_gray}]#{?client_prefix,#[bg=${green}],} ${left_icon}"
+    tmux set-option -g status-left "#[bg=${dark_purple},fg=${white}]#{?client_prefix,#[bg=${light_purple}],} ${left_icon}"
   fi
 
   # Status right
@@ -131,12 +136,12 @@ main()
   for plugin in "${plugins[@]}"; do
 
     if [ $plugin = "git" ]; then
-      IFS=' ' read -r -a colors  <<< $(get_tmux_option "@dracula-git-colors" "yellow black")
+      IFS=' ' read -r -a colors  <<< $(get_tmux_option "@dracula-git-colors" "dark_gray light_purple")
         script="#($current_dir/git.sh)"     
     fi
 
     if [ $plugin = "battery" ]; then
-      IFS=' ' read -r -a colors <<< $(get_tmux_option "@dracula-battery-colors" "crimson white")
+      IFS=' ' read -r -a colors <<< $(get_tmux_option "@dracula-battery-colors" "grey_one cyan")
       script="#($current_dir/battery.sh)"
     fi
 
@@ -156,7 +161,7 @@ main()
     fi
 
     if [ $plugin = "network" ]; then
-      IFS=' ' read -r -a colors <<< $(get_tmux_option "@dracula-network-colors" "black white")
+      IFS=' ' read -r -a colors <<< $(get_tmux_option "@dracula-network-colors" "grey_two white")
       script="#($current_dir/network.sh)"
     fi
 
@@ -183,7 +188,7 @@ main()
     fi
 
     if [ $plugin = "time" ]; then
-      IFS=' ' read -r -a colors <<< $(get_tmux_option "@dracula-time-colors" "orange black")
+      IFS=' ' read -r -a colors <<< $(get_tmux_option "@dracula-time-colors" "grey_three blue")
       if $show_day_month && $show_military ; then # military time and dd/mm
         script="%a %d/%m %R ${timezone} "
       elif $show_military; then # only military time
@@ -205,12 +210,12 @@ main()
 
   # Window option
   if $show_powerline; then
-    tmux set-window-option -g window-status-current-format "#[fg=${gray},bg=${black}]${left_sep}#[fg=${white},bg=${black}] #I #W${current_flags} #[fg=${black},bg=${gray}]${left_sep}"
+    tmux set-window-option -g window-status-current-format "#[fg=${black_one},bg=${gray}]${left_sep}#[fg=${white},bg=${gray}] #I #W${current_flags} #[fg=${gray},bg=${black_one}]${left_sep}"
   else
-    tmux set-window-option -g window-status-current-format "#[fg=${white},bg=${black}] #I #W${current_flags} "
+    tmux set-window-option -g window-status-current-format "#[fg=${white},bg=${grey_one}] #I #W${current_flags} "
   fi
 
-  tmux set-window-option -g window-status-format "#[fg=${white}]#[bg=${gray}] #I #W${flags}"
+  tmux set-window-option -g window-status-format "#[fg=${white}]#[bg=${black_one}] #I #W${flags}"
   tmux set-window-option -g window-status-activity-style "bold"
   tmux set-window-option -g window-status-bell-style "bold"
 }
