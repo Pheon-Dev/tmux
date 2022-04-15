@@ -1,0 +1,8 @@
+pane	CFG	1	1	:*	1	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	DEV	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	DEV	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	0	sh	:/bin/sh /usr/bin/pnpm run dev
+pane	DEV	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	node	:node /usr/bin/sanity start
+window	CFG	1	:nvim	1	:*	be00,168x72,0,0,3	:
+window	DEV	1	:code	1	:*	bdfd,168x72,0,0,0	off
+window	DEV	2	:serve	0	:##-	e625,168x72,0,0{84x72,0,0,1,83x72,85,0,2}	off
+state	DEV	CFG
