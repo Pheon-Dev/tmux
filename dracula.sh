@@ -28,24 +28,55 @@ main()
   IFS=' ' read -r -a plugins <<< $(get_tmux_option "@dracula-plugins" "battery network weather")
 
   # Dracula Color Pallette
-  white='#f8f8f2'
-  grey_one='#4e4e4e'
-  grey_two='#666666'
-  grey_three='#3a3a3a'
-  gray='#44475a'
-  dark_gray='#282a36'
-  light_purple='#bd93f9'
-  dark_purple='#6272a4'
-  cyan='#8be9fd'
-  green='#62ff00'
-  orange='#fb5002'
-  red='#f02130'
-  pink='#ff79c6'
-  yellow='#ffff0f'
   black='#000000'
   black_one='#1c1c1c'
-  crimson='#67101b'
+  dark_gray='#282a36'
+  grey_three='#3a3a3a'
+  grey_one='#4e4e4e'
+  gray='#44475a'
+  t_fg_gutter='#3b4261'
+  grey_two='#666666'
+  t_blue7='#394b70'
+  t_dark3='#545c7e'
+  t_blue0='#3d59a1'
+  dark_purple='#6272a4'
+  light_purple='#bd93f9'
+  t_magenta='#bb9af7'
+  t_purple1='#8d7cd8'
+  t_purple='#c66bfe'
+  pink='#ff79c6'
+  red='#f02130'
+  t_magenta2='#ff007c'
+  t_dark5='#737aa2'
+  t_fg_dark='#a9b1d6'
+  white='#f8f8f2'
+  t_fg='#c0caf5'
+  t_blue8='#7aa2f7'
+  t_cyan1='#7dcfff'
+  t_blue5='#89ddff'
+  t_blue6='#B4F9F8'
+  t_comment='#7aa2f7'
+  cyan='#8be9fd'
+  t_green0='#73daca'
+  t_green1='#00aaef'
+  t_cyan='#10f0e0'
+  t_blue1='#2ac3de'
+  t_green2='#30aaef'
+  t_blue2='#0db9d7'
   blue='#6790eb'
+  t_blue='#1098f8'
+  t_teal='#1abc9c'
+  t_green3='#41a6b5'
+  t_green='#9ece6a'
+  green='#62ff00'
+  yellow='#ffff0f'
+  t_yellow1='#ffd000'
+  t_orange='#ff9e64'
+  t_yellow='#e0af68'
+  orange='#fb5002'
+  t_red='#f7768e'
+  t_red1='#db4b4b'
+  crimson='#67101b'
 
   # Handle left icon configuration☺
   case $show_left_icon in
@@ -190,13 +221,13 @@ main()
     if [ $plugin = "time" ]; then
       IFS=' ' read -r -a colors <<< $(get_tmux_option "@dracula-time-colors" "grey_three blue")
       if $show_day_month && $show_military ; then # military time and dd/mm
-        script="%a %d/%m %R ${timezone} "
+        script="🗓 %a %d/%m ⌚%R ${timezone} "
       elif $show_military; then # only military time
-        script="%a %m/%d %R ${timezone} "
+        script="🗓 %a %m/%d ⌚%R ${timezone} "
       elif $show_day_month; then # only dd/mm
-        script="%a %d/%m %I:%M %p ${timezone} "
+        script="🗓 %a %d/%m ⌚%I:%M %p ${timezone} "
       else
-        script="%a %m/%d %I:%M %p ${timezone} "
+        script="🗓 %a %m/%d ⌚%I:%M %p ${timezone} "
       fi
     fi
 
