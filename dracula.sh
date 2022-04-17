@@ -158,7 +158,7 @@ main()
     tmux set-option -g status-left "#[bg=${grey_three},fg=${white}]#{?client_prefix,#[fg=${green}],} ${left_icon} #[fg=${grey_three},bg=${grey_one}]#{?client_prefix,#[fg=${grey_three}],}${left_sep}#[fg=${grey_one},bg=${black_one}]${left_sep}"
     powerbg=${black_one}
   else
-    tmux set-option -g status-left "#[bg=${dark_purple},fg=${white}]#{?client_prefix,#[bg=${light_purple}],} ${left_icon}"
+    tmux set-option -g status-left "#[bg=${t_blue8},fg=${dark_gray}]#{?client_prefix,#[bg=${light_purple}],} ${left_icon}"
   fi
 
   # Status right
