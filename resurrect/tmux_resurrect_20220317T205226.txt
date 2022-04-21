@@ -1,9 +1,0 @@
-pane	CONFIG	1	1	:*	1	:/home/pheon/.config/nvim	1	nvim	:nvim
-pane	CONFIG	2	0	:-	1	:/home/pheon/.config/zsh	0	nvim	:zsh
-pane	CONFIG	2	0	:-	2	:/home/pheon/.config/nvim	0	zsh	:
-pane	CONFIG	2	0	:-	3	:/home/pheon/Documents/Play-Ground/ReactJS	1	nvim	:nvim
-pane	CONFIG	3	0	:##	1	:/run/media/arco/home/pheon/Documents	1	mc	:mc
-window	CONFIG	1	:nvim	1	:*	be3d,197x72,0,0,0	:
-window	CONFIG	2	:python	0	:-	9d1f,197x72,0,0{98x72,0,0[98x36,0,0,1,98x35,0,37,5],98x72,99,0,4}	off
-window	CONFIG	3	:mc	0	:##	be3f,197x72,0,0,2	:
-state	CONFIG	

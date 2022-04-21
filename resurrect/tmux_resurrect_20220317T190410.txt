@@ -1,3 +1,0 @@
-pane	0	1	1	:*	1	:/home/pheon/.tmux/plugins/tmux	1	nvim	:nvim
-window	0	1	:nvim	1	:*	be3d,197x72,0,0,0	:
-state	0	

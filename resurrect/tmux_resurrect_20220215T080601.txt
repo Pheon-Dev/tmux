@@ -1,7 +1,0 @@
-pane	CONFIG	1	1	:*	1	:/home/pheon/.config/nvim	1	nvim	:nvim
-pane	V-LMS	1	0	:-	1	:/home/pheon/Documents/React/Git	1	zsh	:
-pane	V-LMS	2	1	:*	1	:/home/pheon/Documents/CMT/AI	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua .
-window	CONFIG	1	:nvim	1	:*	5f12,192x44,0,0,13	off
-window	V-LMS	1	:serve	0	:-	bdc6,192x44,0,0,9	off
-window	V-LMS	2	:nvim	1	:*	5f10,192x44,0,0,11	:
-state	V-LMS	

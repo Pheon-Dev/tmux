@@ -1,5 +1,0 @@
-pane	V-AMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/AMS/vision-ams-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
-pane	V-AMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/AMS/vision-ams-frontend	1	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
-window	V-AMS	1	:nvim	1	:*	5f15,192x44,0,0,16	:
-window	V-AMS	2	:node	0	:##-	5f16,192x44,0,0,17	:
-state	V-AMS	

@@ -1,3 +1,0 @@
-pane	V-LMS	1	1	:*	1	:/home/pheon/Documents/CnD/Apps/Wavma	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
-window	V-LMS	1	:python	1	:*	bdbd,192x44,0,0,0	off
-state	V-LMS	

@@ -1,8 +1,0 @@
-pane	LMS	1	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim -u /home/pheon/.local/share/lunarvim/lvim/init.lua
-pane	LMS	2	0	:##-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-frontend	1	node	:/usr/bin/node /usr/bin/../../home/pheon/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs run dev
-pane	LMS	2	0	:##-	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	node	:node /home/pheon/.nvm/versions/node/v17.4.0/bin/sanity start
-pane	MISC	1	1	:*	1	:/home/pheon	1	mpv	:mpv /home/pheon/Downloads/Movies/Anime/fullmetal-alchemist-brotherhood/fullmetal-alchemist-brotherhood-episode-50.mp4 /home/pheon/Downloads/Mov
-window	LMS	1	:fend	1	:*	d61d,283x69,0,0,0	off
-window	LMS	2	:bend	0	:##-	4d5a,151x36,0,0{75x36,0,0,1,75x36,76,0,2}	off
-window	MISC	1	:mpv	1	:*	bba0,282x72,0,0,3	:
-state	MISC	

@@ -1,3 +1,0 @@
-pane	CONFIG	1	1	:*	1	:/home/pheon/.config/nvim	1	nvim	:nvim
-window	CONFIG	1	:nvim	1	:*	c23d,193x45,0,0,0	off
-state	CONFIG	

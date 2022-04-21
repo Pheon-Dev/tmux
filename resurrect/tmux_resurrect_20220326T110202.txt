@@ -1,8 +1,0 @@
-pane	CONFIG	1	1	:*	1	:/home/pheon	1	zsh	:
-pane	LMS	1	0	:-	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS	1	zsh	:
-pane	LMS	2	1	:*	1	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	0	zsh	:
-pane	LMS	2	1	:*	2	:/home/pheon/Documents/React/Apps/LMS/Vision-LMS/vision-lms-backend	1	zsh	:
-window	CONFIG	1	:zsh	1	:*	bb9d,282x72,0,0,0	:
-window	LMS	1	:fend	0	:-	bb9e,282x72,0,0,1	off
-window	LMS	2	:end	1	:*	1b51,282x73,0,0{141x73,0,0,2,140x73,142,0,3}	off
-state	LMS	CONFIG
