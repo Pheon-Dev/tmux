@@ -1,7 +1,0 @@
-pane	DEV	1	1	:*	1	dracula.sh (~/.tmux/plugins/tmux/scripts) - NVIM	:/home/pheon/.tmux/plugins	1	nvim	:nvim
-pane	DEV	2	0	:-	1	[No Name] - - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
-pane	MSC	1	1	:*	1	pheon-dev	:/home/pheon	1	zsh	:
-window	DEV	1	:nvim	1	:*	d07d,184x77,0,0,0	:
-window	DEV	2	:nvim	0	:-	d07e,184x77,0,0,1	:
-window	MSC	1	:zsh	1	:*	c2bf,194x45,0,0,2	:
-state	DEV	

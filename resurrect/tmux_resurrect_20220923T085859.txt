@@ -1,9 +1,0 @@
-pane	DEV	1	1	:*	1	[create].tsx + (~/Documents/NextJS/App/destiny-credit/pages/loans/maintain) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
-pane	MSC	1	1	:*	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
-pane	MSC	1	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
-pane	MSC	1	1	:*	3	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	zsh	:
-pane	MSC	2	0	:##-	1	index.tsx (~/Documents/NextJS/Git/tRPC-10/src/pages) - NVIM	:/home/pheon/Documents/NextJS/Git/tRPC-10	1	nvim	:nvim
-window	DEV	1	:nvim	1	:*	cf3e,191x77,0,0,1	:
-window	MSC	1	:pscale	1	:*	511a,194x45,0,0{97x45,0,0,2,96x45,98,0[96x22,98,0,3,96x22,98,23,4]}	:
-window	MSC	2	:nvim	0	:##-	c2c2,194x45,0,0,5	:
-state	DEV	

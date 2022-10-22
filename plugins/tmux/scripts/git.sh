@@ -37,10 +37,10 @@ for i in $(git -C $path status -s)
     done
 
     output=""
-    [ $added -gt 0 ] && output+="${added}A"
-    [ $modified -gt 0 ] && output+=" ${modified}M"
-    [ $updated -gt 0 ] && output+=" ${updated}U"
-    [ $deleted -gt 0 ] && output+=" ${deleted}D"
+    [ $added -gt 0 ] && output+=" ${added} "
+    [ $modified -gt 0 ] && output+="柳${modified} "
+    [ $updated -gt 0 ] && output+="🧹 ${updated} "
+    [ $deleted -gt 0 ] && output+=" ${deleted} "
   
     echo $output    
 }
@@ -128,7 +128,7 @@ getMessage()
                 if [ $(checkEmptySymbol $diff_symbol) == "true" ]; then
                     echo "$branch"
                 else
-                    echo "$diff_symbol $branch"                    
+                    echo "$diff_symbol $branch   $changes ⋮"                    
                 fi
             fi
 
@@ -136,7 +136,7 @@ getMessage()
             if [ $(checkEmptySymbol $current_symbol) == "true" ]; then
                 echo "$branch"
             else
-                echo "$current_symbol $branch"
+                echo "$current_symbol $branch ⋮"
             fi
         fi
     else

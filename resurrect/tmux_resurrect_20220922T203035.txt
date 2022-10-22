@@ -1,7 +1,0 @@
-pane	DEV	1	1	:*	1	351351:zsh;#toggleterm#1 - (term://~/.tmux/plugins) - NVIM	:/home/pheon/.tmux/plugins	1	nvim	:nvim
-pane	DEV	2	0	:-	1	[No Name] - - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
-pane	MSC	1	1	:*	1	colors.lua (~/.local/share/nvim/site/pack/packer/start/tokyonight.nvim/lua/tokyonight) - NVIM	:/home/pheon/.local/share/nvim/site/pack/packer/start/tokyonight.nvim	1	nvim	:nvim
-window	DEV	1	:nvim	1	:*	d07d,184x77,0,0,0	:
-window	DEV	2	:nvim	0	:-	d07e,184x77,0,0,1	:
-window	MSC	1	:nvim	1	:*	c2bf,194x45,0,0,2	:
-state	DEV	

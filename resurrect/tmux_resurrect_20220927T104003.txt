@@ -1,7 +1,0 @@
-pane	DEV	1	0	:-	1	[No Name] - - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
-pane	DEV	2	1	:*	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
-pane	DEV	2	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	pscale	:pscale connect destiny-credit dev --port 3306
-pane	DEV	2	1	:*	3	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	node	:node /home/pheon/.local/share/pnpm/global/5/node_modules/prisma/build/index.js studio
-window	DEV	1	:nvim	0	:-	c2bd,194x45,0,0,0	:
-window	DEV	2	:node	1	:*	1019,194x45,0,0{97x45,0,0,1,96x45,98,0[96x22,98,0,2,96x22,98,23,3]}	:
-state	DEV	

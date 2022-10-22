@@ -43,7 +43,8 @@ main()
   light_purple='#bd93f9'
   t_magenta='#bb9af7'
   t_purple1='#8d7cd8'
-  t_purple='#c66bfe'
+  t_purple2='#c66bfe'
+  t_purple='#c678dd'
   pink='#ff79c6'
   red='#f02130'
   t_magenta2='#ff007c'
@@ -154,12 +155,7 @@ main()
   tmux set-option -g status-style "bg=${dark_gray},fg=${white}"
 
   # Status left
-  if $show_powerline; then
-    tmux set-option -g status-left "#[bg=${grey_three},fg=${white}]#{?client_prefix,#[fg=${green}],} ${left_icon} #[fg=${grey_three},bg=${grey_one}]#{?client_prefix,#[fg=${grey_three}],}${left_sep}#[fg=${grey_one},bg=${black_one}]${left_sep}"
-    powerbg=${black_one}
-  else
-    tmux set-option -g status-left "#[bg=${t_blue8},fg=${dark_gray}]#{?client_prefix,#[bg=${light_purple}],} ${left_icon}"
-  fi
+    tmux set-option -g status-left "#[bg=${t_blue8},fg=${dark_gray}]#{?client_prefix,#[bg=${t_purple}],} ${left_icon}"
 
   # Status right
   tmux set-option -g status-right ""
@@ -240,13 +236,9 @@ main()
   done
 
   # Window option
-  if $show_powerline; then
-    tmux set-window-option -g window-status-current-format "#[fg=${dark_gray},bg=${gray}]${left_sep}#[fg=${white},bg=${gray}] #I #W${current_flags} #[fg=${gray},bg=${dark_gray}]${left_sep}"
-  else
-    tmux set-window-option -g window-status-current-format "#[fg=${light_purple},bg=${grey_one}] #I #W${current_flags} "
-  fi
+    tmux set-window-option -g window-status-current-format "#[fg=${t_blue8},bg=${black_one}] #I #W${current_flags} "
 
-  tmux set-window-option -g window-status-format "#[fg=${t_purple1}]#[bg=${dark_gray}] #I #W${flags}"
+  tmux set-window-option -g window-status-format "#[fg=${t_fg_gutter}]#[bg=${black_one}] #I #W${flags}"
   tmux set-window-option -g window-status-activity-style "bold"
   tmux set-window-option -g window-status-bell-style "bold"
 }

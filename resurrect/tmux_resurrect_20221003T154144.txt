@@ -1,6 +1,0 @@
-pane	DEV	1	1	:*	1	10947:zsh;#toggleterm#1 - (term://~/Documents/NextJS/App/destiny-credit) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
-pane	MSC	1	1	:*	1	pulsemixer	:/home/pheon/.local/state/nvim/swap	0	python	:/usr/bin/python /usr/bin/pulsemixer
-pane	MSC	1	1	:*	2	pheon-dev	:/home/pheon/.local/state/nvim/swap	1	zsh	:
-window	DEV	1	:nvim	1	:*	d23d,159x77,0,0,0	:
-window	MSC	1	:zsh	1	:*	1058,159x25,0,0{79x25,0,0,1,79x25,80,0,2}	:
-state	MSC	

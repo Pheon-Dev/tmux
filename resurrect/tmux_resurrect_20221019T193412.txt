@@ -1,3 +1,0 @@
-pane	0	1	1	:*	1	13640:zsh;#toggleterm#1 - (term://~/.config/bspwm) - NVIM	:/home/pheon/.config/bspwm	1	nvim	:nvim
-window	0	1	:nvim	1	:*	cebd,194x48,0,0,0	:
-state	0	
