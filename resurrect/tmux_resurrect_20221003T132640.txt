@@ -1,0 +1,5 @@
+pane	DEV	1	1	:*	1	TransactionsTable.tsx + (~/Documents/NextJS/App/destiny-credit/components/Tables) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	MSC	1	1	:*	1	pheon-dev	:/home/pheon/.local/state/nvim/swap	1	zsh	:
+window	DEV	1	:nvim	1	:*	cfdd,216x77,0,0,0	:
+window	MSC	1	:zsh	1	:*	c2be,194x45,0,0,1	:
+state	DEV	

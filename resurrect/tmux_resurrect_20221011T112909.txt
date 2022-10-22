@@ -1,0 +1,9 @@
+pane	DEV	1	1	:*	1	7827:zsh;#toggleterm#1 - (term://~/Documents/NextJS/App/destiny-credit) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	MSC	1	0	:-	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	zsh	:
+pane	MSC	1	0	:-	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	zsh	:
+pane	MSC	2	1	:*	1	pheon-dev	:/home/pheon/.config/zsh	1	zsh	:
+pane	MSC	2	1	:*	2	pheon-dev	:/home/pheon/.config/zsh	0	zsh	:
+window	DEV	1	:nvim	1	:*	c55d,238x93,0,0,0	:
+window	MSC	1	:zsh	0	:-	e31a,194x45,0,0{97x45,0,0,1,96x45,98,0,2}	:
+window	MSC	2	:zsh	1	:*	e323,194x45,0,0{97x45,0,0,3,96x45,98,0,4}	:
+state	MSC	

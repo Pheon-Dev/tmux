@@ -1,0 +1,14 @@
+pane	DEV	1	1	:*	1	ui.lua (~/.local/share/nvim/site/pack/packer/start/harpoon/lua/harpoon) - NVIM	:/home/pheon/.local/share/nvim/site/pack/packer/start/harpoon	1	nvim	:nvim .
+pane	DEV	1	1	:*	2	init.lua (~/.config/nvim/lua/plugins) - NVIM	:/home/pheon/.config/nvim	0	nvim	:nvim .
+pane	DEV	2	0	:##	1	whichkey.lua (~/.config/nvim/lua/config) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim .
+pane	DEV	2	0	:##	2	pheon-dev	:/home/pheon/.config/nvim	0	zsh	:
+pane	DEV	3	0	:##-	1	alias.zsh (~/.config/zsh) - NVIM	:/home/pheon/.config/zsh	1	nvim	:nvim
+pane	MSC	1	0	:##-	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	node	:node /usr/bin/yarn dev
+pane	MSC	1	0	:##-	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	1	:*	1	pheon-dev	:/home/pheon/.cache	1	zsh	:
+window	DEV	1	:nvim	1	:*	894b,319x82,0,0{159x82,0,0,0,159x82,160,0,14}	:
+window	DEV	2	:nvim	0	:##	8b24,319x82,0,0{160x82,0,0,3,158x82,161,0,13}	:
+window	DEV	3	:nvim	0	:##-	5ff1,319x82,0,0,12	:
+window	MSC	1	:node	0	:##-	1627,194x48,0,0{97x48,0,0,1,96x48,98,0,2}	:
+window	MSC	2	:zsh	1	:*	cec1,194x48,0,0,4	:
+state	DEV	

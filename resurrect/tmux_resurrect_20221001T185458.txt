@@ -1,0 +1,10 @@
+pane	DEV	1	1	:*	1	[payments].tsx (~/Documents/NextJS/App/destiny-credit/pages/loans/payments) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	MSC	1	1	:*	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	node	:node /usr/bin/yarn dev
+pane	MSC	1	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	1	1	:*	3	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	zsh	:
+pane	MSC	2	0	:-	1	pheon-dev	:/home/pheon	1	mpv	:mpv /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-1-its-grim-up-north1660657981.0.mp4 /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-2-the-garden1660658221.0.mp4 /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-3-scapegoat1660731301.1.mp4 /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-4-manchester-innit1660658101.0.mp4 /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-5-lockdown1660658281.0.mp4 /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-6-results-day1660658161.0.1.mp4 /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-6-results-day1660658161.0.mp4 /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-7-i-heart-bltn1660658041.0.mp4 /home/pheon/Downloads/Movies/Red-Rose/red-rose-season-1-episode-8-the-gardener1660658161.0.mp4
+pane	MSC	2	0	:-	2	pheon-dev	:/home/pheon	0	mocp	:mocp
+window	DEV	1	:nvim	1	:*	d07d,184x77,0,0,0	:
+window	MSC	1	:node	1	:*	1019,194x45,0,0{97x45,0,0,1,96x45,98,0[96x22,98,0,2,96x22,98,23,3]}	:
+window	MSC	2	:mpv	0	:-	6328,194x45,0,0{97x45,0,0,4,96x45,98,0,5}	:
+state	DEV	

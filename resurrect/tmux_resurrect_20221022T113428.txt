@@ -1,0 +1,14 @@
+pane	DEV	1	0	:##	1	payments.ts (~/Documents/NextJS/App/destiny-credit/src/server/routers) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:zsh
+pane	DEV	2	0	:##-	1	init.lua (~/.config/nvim/lua/plugins) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim .
+pane	DEV	3	1	:*	1	pheon-dev	:/home/pheon	0	zsh	:
+pane	DEV	3	1	:*	2	pheon - (help) ((1) of 2) - NVIM	:/home/pheon/.tmux	1	nvim	:nvim . /home/pheon/.tmux.conf
+pane	MSC	1	0	:##-	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	0	:##-	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	1	:*	1	pulsemixer	:/home/pheon/.cache	1	zsh	:
+pane	MSC	2	1	:*	2	pheon-dev	:/home/pheon/.cache	0	zsh	:
+window	DEV	1	:nvim	0	:##	5893,194x50,0,0,14	:
+window	DEV	2	:nvim	0	:##-	5897,194x50,0,0,18	:
+window	DEV	3	:nvim	1	:*	7296,194x50,0,0{97x50,0,0,22,96x50,98,0,23}	:
+window	MSC	1	:pscale	0	:##-	7592,170x38,0,0{84x38,0,0,1,85x38,85,0,16}	:
+window	MSC	2	:zsh	1	:*	fa88,170x38,0,0{85x38,0,0,4,84x38,86,0,17}	:
+state	DEV	

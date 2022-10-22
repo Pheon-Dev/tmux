@@ -1,0 +1,11 @@
+pane	DEV	1	1	:*	1	7827:zsh;#toggleterm#1 - (term://~/Documents/NextJS/App/destiny-credit) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	MSC	1	0	:	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	0	:	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	zsh	:
+pane	MSC	2	1	:*	1	init.lua + (~/.config/nvim/lua/plugins) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	MSC	2	1	:*	2	init.lua (~/.config/nvim-2/lua/plugins) - NVIM	:/home/pheon/.config/nvim-2	0	nvim	:nvim
+pane	MSC	3	0	:-	1	[No Name] - - NVIM	:/home/pheon/Documents/NextJS/App/pheon-dev	1	nvim	:nvim
+window	DEV	1	:nvim	1	:*	c55d,238x93,0,0,0	:
+window	MSC	1	:zsh	0	:	7431,194x46,0,0{97x46,0,0,5,96x46,98,0,7}	:
+window	MSC	2	:nvim	1	:*	743e,194x46,0,0{97x46,0,0,8,96x46,98,0,9}	:
+window	MSC	3	:nvim	0	:-	638f,194x46,0,0,10	:
+state	MSC	

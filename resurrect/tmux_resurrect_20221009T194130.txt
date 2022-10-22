@@ -1,0 +1,15 @@
+pane	DEV	1	1	:*	1	TransactionsTable.tsx (~/Documents/NextJS/App/destiny-credit/src/components/Tables) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	DEV	2	0	:##-	1	init.lua (~/.config/nvim/lua/keybindings) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	DEV	3	0	:##	1	index.tsx (~/Documents/NextJS/App/pheon-dev/apps/lms/pages) - NVIM	:/home/pheon/Documents/NextJS/App/pheon-dev	1	nvim	:nvim
+pane	MSC	1	1	:*	1	pulsemixer	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	0	:	1	pheon-dev	:/home/pheon/Documents/NextJS/App/DCL/destiny-credit-8	1	zsh	:
+pane	MSC	3	0	:##-	1	pheon-dev	:/home/pheon/Downloads/Movies/WestWorld	1	mpv	:mpv /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-1-the-auguries1656297781.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-2-well-enough-alone1656899761.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-3-annees-folles1657507622.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-4-generation-loss1658109301.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-5-zhuangzi1658712661.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-6-fidelity1659351482.1.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-7-metanoia1659933661.1.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-8-que-sera-sera1660560602.1.mp4
+pane	MSC	3	0	:##-	2	pheon-dev	:/home/pheon/Downloads/Movies/WestWorld	0	zsh	:
+window	DEV	1	:nvim	1	:*	d29e,204x78,0,0,1	off
+window	DEV	2	:python	0	:##-	d29f,204x78,0,0,2	off
+window	DEV	3	:nvim	0	:##	cea5,204x77,0,0,8	:
+window	MSC	1	:pscale	1	:*	e323,194x45,0,0{97x45,0,0,3,96x45,98,0,4}	:
+window	MSC	2	:zsh	0	:	ce42,159x38,0,0,5	:
+window	MSC	3	:mpv	0	:##-	147e,191x77,0,0{96x77,0,0,6,94x77,97,0,7}	:
+state	DEV	MSC

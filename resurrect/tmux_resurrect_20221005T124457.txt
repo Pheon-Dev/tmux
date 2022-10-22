@@ -1,0 +1,14 @@
+pane	DEV	1	1	:*	1	payments.ts (~/Documents/NextJS/App/destiny-credit/server/routers) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	DEV	2	0	:##-	1	init.lua (~/.config/nvim/lua/keybindings) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	MSC	1	0	:##	1	pulsemixer	:/home/pheon/Documents/NextJS/App/destiny-credit	1	node	:node /usr/bin/yarn dev
+pane	MSC	1	0	:##	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	0	:##	1	functions.js (~/Documents/React/App/LMS/Vision-LMS/vision-lms-frontend/src/components/Loan/Payments/Functions) - NVIM	:/home/pheon/Documents/React/App/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	MSC	3	1	:*	1	pheon-dev	:/home/pheon/Downloads/Movies/Film/October	1	aria2c	:aria2c --file-allocation=none -c -x 10 -d . -Z https://s99.upstreamcdn.co/v/01/00044/4i9itqs49c92_n/41cead8b311489253509d3c5a3b38fb8.mp4?t=PkT8QW7XAWKWC43D71Ai-KAHcGttwjgb7l3ttOjmYCA&s=1664958778&e=10800&f=222693&sp=256&i=0.0 https://sto102.akamai-cdn-content.com/tysxfcpm5g66j6cdactbrsc4ebsl2rkpeunqkyrqdqaqmuv5za35zxsoslaq/the-dictator-hd-720p.mp4 https://sto009.akamai-cdn-content.com/tysxf5go2g66j6cdaakrrhkif2fyii7kity2pfsvafcvapwqclxtqfachena/borat-subsequent-moviefilm.mp4 https://sto183.akamai-cdn-content.com/tysxen6axc76j6cdabtdtvqcerpluqlaonoe4dohu7c2oipkt5fkwmpiz54a/ash-and-bone1664895421.0.mp4
+pane	MSC	4	0	:-	1	pheon-dev	:/home/pheon/Documents/CMT	1	python	:/usr/bin/python -O /usr/bin/ranger
+window	DEV	1	:nvim	1	:*	c1dd,212x93,0,0,0	:
+window	DEV	2	:nvim	0	:##-	cce1,210x77,0,0,4	off
+window	MSC	1	:node	0	:##	631b,194x45,0,0{97x45,0,0,1,96x45,98,0,3}	:
+window	MSC	2	:nvim	0	:##	c2c2,194x45,0,0,5	:
+window	MSC	3	:aria2c	1	:*	c2c5,194x45,0,0,8	:
+window	MSC	4	:python	0	:-	6191,194x45,0,0,12	:
+state	MSC	DEV

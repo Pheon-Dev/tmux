@@ -1,0 +1,11 @@
+pane	DEV	1	1	:*	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	lazygit	:lazygit
+pane	DEV	2	0	:##-	1	init.lua (~/.config/nvim/lua/keybindings) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	DEV	2	0	:##-	2	_app.tsx (~/Documents/NextJS/App/pheon-dev/apps/pheon-dev/src/pages) - NVIM	:/home/pheon/Documents/NextJS/App/pheon-dev	0	nvim	:nvim
+pane	MSC	1	1	:*	1	pulsemixer	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	0	:##-	1	[payments].tsx (~/Documents/NextJS/App/DCL/destiny-credit-8/pages/loans/payments) - NVIM	:/home/pheon/Documents/NextJS/App/DCL/destiny-credit-8	1	nvim	:nvim
+window	DEV	1	:lazygit	1	:*	cf3d,191x77,0,0,0	:
+window	DEV	2	:nvim	0	:##-	6141,198x77,0,0{99x77,0,0,4,98x77,100,0,24}	off
+window	MSC	1	:pscale	1	:*	741f,194x46,0,0{97x46,0,0,1,96x46,98,0,3}	:
+window	MSC	2	:nvim	0	:##-	c6c2,194x46,0,0,5	:
+state	DEV	MSC

@@ -1,0 +1,12 @@
+pane	DEV	1	1	:*	1	2111468:zsh;#toggleterm#1 - (term://~/Documents/NextJS/App/destiny-credit) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	DEV	2	0	:##	1	index.tsx (~/Documents/NextJS/App/pheon-dev/apps/pheon-dev/src/pages) - NVIM	:/home/pheon/Documents/NextJS/App/pheon-dev/apps/pheon-dev	1	nvim	:nvim
+pane	DEV	3	0	:##-	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	node	:node /usr/bin/yarn dev
+pane	MSC	1	1	:##*	1	pulsemixer	:/home/pheon/Documents/NextJS/App/destiny-credit	1	zsh	:
+pane	MSC	1	1	:##*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	zsh	:
+pane	MSC	2	0	:##-	1	functions.js (~/Documents/React/App/LMS/Vision-LMS/vision-lms-frontend/src/components/Loan/Payments/Functions) - NVIM	:/home/pheon/Documents/React/App/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+window	DEV	1	:nvim	1	:*	c2bd,194x45,0,0,0	:
+window	DEV	2	:nvim	0	:##	c2c1,194x45,0,0,4	off
+window	DEV	3	:node	0	:##-	6197,194x45,0,0,18	:
+window	MSC	1	:zsh	1	:##*	631b,194x45,0,0{97x45,0,0,1,96x45,98,0,3}	:
+window	MSC	2	:nvim	0	:##-	c2c2,194x45,0,0,5	:
+state	DEV	MSC

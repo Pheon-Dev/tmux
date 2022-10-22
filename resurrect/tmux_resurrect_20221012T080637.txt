@@ -1,0 +1,12 @@
+pane	DEV	1	0	:	1	3026655:zsh;#toggleterm#1 - (term://~/Documents/NextJS/App/destiny-credit) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	DEV	2	0	:-	1	winbar.lua (~/.config/nvim/lua/config) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	DEV	3	1	:*	1	3258473:zsh;#toggleterm#1 - (term://~/Documents/NextJS/App/pheon-dev) - NVIM	:/home/pheon/Documents/NextJS/App/pheon-dev	1	nvim	:nvim
+pane	MSC	1	0	:-	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	0	:-	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	1	:*	1	pulsemixer	:/home/pheon/Downloads	1	python	:/usr/bin/python -O /usr/bin/ranger
+window	DEV	1	:nvim	0	:	d23d,197x77,0,0,0	:
+window	DEV	2	:nvim	0	:-	6951,197x77,0,0,12	:
+window	DEV	3	:nvim	1	:*	6955,197x77,0,0,16	:
+window	MSC	1	:pscale	0	:-	7431,194x46,0,0{97x46,0,0,5,96x46,98,0,7}	:
+window	MSC	2	:python	1	:*	638f,194x46,0,0,10	:
+state	DEV	

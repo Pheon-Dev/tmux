@@ -1,0 +1,15 @@
+pane	DEV	1	0	:##	1	search.ts (~/Documents/NextJS/App/pheon-dev/apps/sport/src/server/routers) - NVIM	:/home/pheon/Documents/NextJS/App/pheon-dev	1	nvim	:nvim
+pane	DEV	1	0	:##	2	transactions.ts (~/Documents/NextJS/App/destiny-credit/src/server/routers) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	0	nvim	:nvim
+pane	DEV	2	0	:-	1	pulsemixer	:/home/pheon/.config/zsh	1	zsh	:
+pane	DEV	3	1	:*	1	telescope.lua (~/.config/nvim/lua/config) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	MSC	1	1	:*	1	pheon-dev	:/home/pheon/Documents/NextJS/App/pheon-dev/apps/sport	1	node	:node /usr/bin/yarn dev
+pane	MSC	2	0	:-	1	pulsemixer	:/home/pheon/.config/zsh	1	zsh	:
+pane	MSC	3	0	:	1	pheon-dev	:/home/pheon	0	mpv	:mpv /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-10-shingen1658452321.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-10-shingen1658452321.0.mp4.aria2 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-1-mariko1658452382.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-2-yukio1658452081.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-3-kikyo1658452261.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-4-omega-red1658452021.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-5-asano1658452441.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-6-min1658452501.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-6-min1658452501.0.mp4.aria2 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-7-vadhaka1658452021.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-7-vadhaka1658452021.0.mp4.aria2 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-8-koh1658452081.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-8-koh1658452081.0.mp4.aria2 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-9-hell-road1658452141.0.mp4 /home/pheon/Downloads/Movies/Anime/Logan/wolverine-season-1-episode-9-hell-road1658452141.0.mp4.aria2
+pane	MSC	3	0	:	2	pheon-dev	:/home/pheon	1	zsh	:
+window	DEV	1	:zsh	0	:##	c6e4,194x45,0,0{97x45,0,0,35,96x45,98,0,38}	off
+window	DEV	2	:zsh	0	:-	e394,194x46,0,0,25	:
+window	DEV	3	:nvim	1	:*	e395,194x46,0,0,26	:
+window	MSC	1	:node	1	:*	c6c2,194x46,0,0,5	:
+window	MSC	2	:zsh	0	:-	638f,194x46,0,0,10	off
+window	MSC	3	:zsh	0	:	0b6b,194x46,0,0{97x46,0,0,28,96x46,98,0,29}	:
+state	DEV	

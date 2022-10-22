@@ -1,0 +1,19 @@
+pane	DEV	1	0	:##	1	[No Name] - - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	DEV	2	0	:-	1	pheon-dev	:/home/pheon/.config/nvim	0	zsh	:
+pane	DEV	2	0	:-	2	pheon-dev	:/home/pheon/.config/nvim-2	1	zsh	:
+pane	DEV	3	1	:*	1	pheon-dev	:/home/pheon/.tmux	1	zsh	:
+pane	DEV	3	1	:*	2	TransactionsTable.tsx (~/Documents/NextJS/App/DCL/destiny-credit-1/components/Tables) - NVIM	:/home/pheon/Documents/NextJS/App/DCL/destiny-credit-1	0	nvim	:nvim
+pane	MSC	1	0	:##-	1	pulsemixer	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	0	:##-	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	1	:*	1	pheon-dev	:/home/pheon/Documents/NextJS/App/DCL/destiny-credit-8	1	zsh	:
+pane	MSC	2	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/DCL/destiny-credit	0	zsh	:
+pane	MSC	3	0	:	1	pheon-dev	:/home/pheon/Downloads/Movies/WestWorld	0	mpv	:mpv /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-1-the-auguries1656297781.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-2-well-enough-alone1656899761.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-3-annees-folles1657507622.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-4-generation-loss1658109301.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-5-zhuangzi1658712661.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-6-fidelity1659351482.1.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-7-metanoia1659933661.1.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-8-que-sera-sera1660560602.1.mp4
+pane	MSC	3	0	:	2	pulsemixer	:/home/pheon/Downloads/Movies/WestWorld	0	zsh	:
+pane	MSC	3	0	:	3	pulsemixer	:/home/pheon/Downloads/Movies/WestWorld	1	zsh	:
+window	DEV	1	:nvim	0	:##	d17e,319x77,0,0,1	off
+window	DEV	2	:python	0	:-	5705,319x77,0,0{168x77,0,0,2,150x77,169,0,13}	off
+window	DEV	3	:zsh	1	:*	f34f,319x77,0,0{159x77,0,0,16,159x77,160,0,18}	:
+window	MSC	1	:pscale	0	:##-	e323,194x45,0,0{97x45,0,0,3,96x45,98,0,4}	:
+window	MSC	2	:zsh	1	:*	31ef,194x45,0,0{97x45,0,0,5,96x45,98,0,17}	:
+window	MSC	3	:zsh	0	:	caf1,194x45,0,0{97x45,0,0,6,96x45,98,0[96x22,98,0,7,96x22,98,23,15]}	:
+state	DEV	MSC

@@ -1,0 +1,14 @@
+pane	DEV	1	1	:*	1	TransactionsTable.tsx (~/Documents/NextJS/App/destiny-credit/src/components/Tables) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:zsh
+pane	DEV	2	0	:	1	pheon-dev	:/home/pheon/.config	1	zsh	:
+pane	DEV	3	0	:-	1	pheon-dev	:/home/pheon	0	yay	:yay -Syyu
+pane	DEV	3	0	:-	2	pheon-dev	:/home/pheon	1	zsh	:
+pane	MSC	1	1	:##*	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	1	:##*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	0	:-	1	pulsemixer	:/home/pheon/.cache	1	zsh	:
+pane	MSC	2	0	:-	2	pheon-dev	:/home/pheon/.cache	0	zsh	:
+window	DEV	1	:nvim	0	:##-	6793,194x48,0,0,14	:
+window	DEV	2	:zsh	1	:*	6797,194x48,0,0,18	:
+window	DEV	3	:zsh	0	:	145e,194x48,0,0{97x48,0,0,22,96x48,98,0,23}	:
+window	MSC	1	:pscale	1	:##*	7592,170x38,0,0{84x38,0,0,1,85x38,85,0,16}	:
+window	MSC	2	:zsh	0	:-	4b73,194x48,0,0{97x48,0,0,4,96x48,98,0,17}	:
+state	DEV	

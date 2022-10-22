@@ -1,0 +1,16 @@
+pane	DEV	1	1	:*	1	[payments].tsx (~/Documents/NextJS/App/destiny-credit/src/pages/loans/payments) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	DEV	2	0	:	1	pheon-dev	:/home/pheon/.config/nvim	1	zsh	:
+pane	DEV	2	0	:	2	pheon-dev	:/home/pheon/Documents/NextJS/App/pheon-dev	0	zsh	:
+pane	DEV	3	0	:-	1	pheon-dev	:/home/pheon/Documents/NextJS/App/pheon-dev	1	zsh	:
+pane	MSC	1	1	:*	1	pulsemixer	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	0	:	1	pheon-dev	:/home/pheon/Documents/NextJS/App/DCL/destiny-credit-8	1	zsh	:
+pane	MSC	3	0	:-	1	pheon-dev	:/home/pheon/Downloads/Movies/WestWorld	0	mpv	:mpv /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-3-episode-1-parce-domine.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-3-episode-2-the-winter-line.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-3-episode-3-the-absence-of-field.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-3-episode-4-the-mother-of-exiles.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-3-episode-5-genre.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-3-episode-6-decoherence.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-3-episode-7-passed-pawn.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-3-episode-8-crisis-theory.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-4-episode-7-metanoia1659933661.1.mp4 /home/pheon/Downloads/Movies/WestWorld/3/westworld-season-4-episode-8-que-sera-sera1660560602.1.mp4
+pane	MSC	3	0	:-	2	pheon-dev	:/home/pheon/Downloads/Movies/WestWorld	1	zsh	:
+window	DEV	1	:nvim	1	:*	cf3d,191x77,0,0,0	:
+window	DEV	2	:nvim	0	:	45a2,191x77,0,0{95x77,0,0,4,95x77,96,0,24}	off
+window	DEV	3	:zsh	0	:-	e7d6,191x77,0,0,27	:
+window	MSC	1	:pscale	1	:*	741f,194x46,0,0{97x46,0,0,1,96x46,98,0,3}	:
+window	MSC	2	:zsh	0	:	c6c2,194x46,0,0,5	:
+window	MSC	3	:zsh	0	:-	8b63,194x46,0,0{97x46,0,0,25,96x46,98,0,26}	:
+state	DEV	MSC

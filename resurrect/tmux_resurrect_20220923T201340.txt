@@ -1,0 +1,9 @@
+pane	DEV	1	1	:*	1	[No Name] + - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	MSC	1	1	:*	1	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	node	:node /usr/bin/yarn dev
+pane	MSC	1	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	1	1	:*	3	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /home/pheon/.local/share/pnpm/global/5/node_modules/prisma/build/index.js studio
+pane	MSC	2	0	:-	1	3342529:zsh;#toggleterm#1 - (term://~/Documents/NextJS/Git/tRPC-10) - NVIM	:/home/pheon/Documents/NextJS/Git/tRPC-10	1	nvim	:nvim
+window	DEV	1	:nvim	1	:*	ce9e,204x77,0,0,1	:
+window	MSC	1	:node	1	:*	a41e,194x46,0,0{97x46,0,0,2,96x46,98,0[96x23,98,0,3,96x22,98,24,4]}	:
+window	MSC	2	:nvim	0	:-	c6c2,194x46,0,0,5	:
+state	DEV	

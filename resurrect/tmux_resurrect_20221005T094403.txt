@@ -1,0 +1,12 @@
+pane	DEV	1	1	:*	1	NvimTree_1 - (~/Documents/NextJS/App/destiny-credit) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	DEV	2	0	:##-	1	init.lua (~/.config/nvim/lua/keybindings) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	MSC	1	1	:*	1	pulsemixer	:/home/pheon/Documents/NextJS/App/destiny-credit	1	node	:node /usr/bin/yarn dev
+pane	MSC	1	1	:*	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	0	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	0	:##	1	functions.js (~/Documents/React/App/LMS/Vision-LMS/vision-lms-frontend/src/components/Loan/Payments/Functions) - NVIM	:/home/pheon/Documents/React/App/LMS/Vision-LMS/vision-lms-frontend	1	nvim	:nvim
+pane	MSC	3	0	:-	1	pheon-dev	:/home/pheon	1	mpv	:mpv /home/pheon/Downloads/Movies/Peaky/peaky-blinders-season-6-episode-1-black-day1646388181.2.mp4 /home/pheon/Downloads/Movies/Peaky/peaky-blinders-season-6-episode-2-black-shirt1646664661.2.mp4 /home/pheon/Downloads/Movies/Peaky/peaky-blinders-season-6-episode-3-gold1647692462.1.mp4 /home/pheon/Downloads/Movies/Peaky/peaky-blinders-season-6-episode-4-sapphire1647823202.0.mp4 /home/pheon/Downloads/Movies/Peaky/peaky-blinders-season-6-episode-5-the-road-to-hell1648426861.0.mp4 /home/pheon/Downloads/Movies/Peaky/peaky-blinders-season-6-episode-6-lock-and-key1649040841.1.mp4
+window	DEV	1	:nvim	1	:*	ccdd,210x77,0,0,0	:
+window	DEV	2	:nvim	0	:##-	cce1,210x77,0,0,4	off
+window	MSC	1	:node	1	:*	631b,194x45,0,0{97x45,0,0,1,96x45,98,0,3}	:
+window	MSC	2	:nvim	0	:##	c2c2,194x45,0,0,5	:
+window	MSC	3	:mpv	0	:-	c2c3,194x45,0,0,6	:
+state	DEV	

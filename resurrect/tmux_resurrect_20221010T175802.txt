@@ -1,0 +1,18 @@
+pane	DEV	1	0	:##-	1	payments.ts (~/Documents/NextJS/App/destiny-credit/src/server/routers) - NVIM	:/home/pheon/Documents/NextJS/App/destiny-credit	1	nvim	:nvim
+pane	DEV	2	1	:*	1	2873275:zsh;#toggleterm#1 - (term://~/.config/nvim) - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	DEV	2	1	:*	2	init.lua (~/.config/nvim-2/lua/plugins) - NVIM	:/home/pheon/.config/nvim-2	0	nvim	:nvim
+pane	DEV	3	0	:	1	colors.lua (~/.local/share/nvim/site/pack/packer/start/tokyonight.nvim/lua/tokyonight) - NVIM	:/home/pheon/.local/share/nvim/site/pack/packer/start/tokyonight.nvim	0	nvim	:zsh
+pane	DEV	3	0	:	2	[No Name] + - NVIM	:/home/pheon/.config/nvim	1	nvim	:nvim
+pane	MSC	1	0	:##	1	pulsemixer	:/home/pheon/Documents/NextJS/App/destiny-credit	0	node	:node /usr/bin/yarn dev
+pane	MSC	1	0	:##	2	pheon-dev	:/home/pheon/Documents/NextJS/App/destiny-credit	1	pscale	:pscale connect destiny-credit dev --port 3306
+pane	MSC	2	0	:-	1	[No Name] + - NVIM	:/home/pheon/Documents/NextJS/App/DCL/destiny-credit-8	1	nvim	:nvim
+pane	MSC	3	1	:*	1	pheon-dev	:/home/pheon/Downloads/Movies/WestWorld	0	mpv	:mpv /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-1-the-auguries1656297781.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-2-well-enough-alone1656899761.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-3-annees-folles1657507622.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-4-generation-loss1658109301.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-5-zhuangzi1658712661.0.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-6-fidelity1659351482.1.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-7-metanoia1659933661.1.mp4 /home/pheon/Downloads/Movies/WestWorld/4/westworld-season-4-episode-8-que-sera-sera1660560602.1.mp4
+pane	MSC	3	1	:*	2	pulsemixer	:/home/pheon/Downloads/Movies/WestWorld	0	zsh	:
+pane	MSC	3	1	:*	3	pulsemixer	:/home/pheon/Downloads/Movies/WestWorld	1	zsh	:
+window	DEV	1	:nvim	0	:##-	d57e,319x78,0,0,1	off
+window	DEV	2	:python	1	:*	2985,319x77,0,0{200x77,0,0,2,118x77,201,0,13}	off
+window	DEV	3	:nvim	0	:	f5b0,319x78,0,0{159x78,0,0,8,159x78,160,0,14}	:
+window	MSC	1	:pscale	0	:##	e323,194x45,0,0{97x45,0,0,3,96x45,98,0,4}	:
+window	MSC	2	:nvim	0	:-	c2c2,194x45,0,0,5	:
+window	MSC	3	:zsh	1	:*	5fe6,319x77,0,0{160x77,0,0,6,158x77,161,0[158x38,161,0,7,158x38,161,39,15]}	:
+state	MSC	
