@@ -74,7 +74,7 @@ main()
   t_yellow1='#ffd000'
   t_orange='#ff9e64'
   t_yellow='#e0af68'
-  orange='#fb5002'
+  orange='#ff7222'
   t_red='#f7768e'
   t_red1='#db4b4b'
   crimson='#67101b'

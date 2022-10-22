@@ -128,7 +128,7 @@ getMessage()
                 if [ $(checkEmptySymbol $diff_symbol) == "true" ]; then
                     echo "$branch"
                 else
-                    echo "$diff_symbol $branch   $changes ⋮"                    
+                    echo "$diff_symbol $branch   $changes "                    
                 fi
             fi
 
@@ -136,7 +136,7 @@ getMessage()
             if [ $(checkEmptySymbol $current_symbol) == "true" ]; then
                 echo "$branch"
             else
-                echo "$current_symbol $branch ⋮"
+                echo "$current_symbol $branch"
             fi
         fi
     else
