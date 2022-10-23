@@ -36,6 +36,7 @@ main()
   gray='#44475a'
   t_fg_gutter='#3b4261'
   grey_two='#666666'
+  grey='#7f7f7f'
   t_blue7='#394b70'
   t_dark3='#545c7e'
   t_blue0='#3d59a1'
@@ -82,7 +83,7 @@ main()
   # Handle left icon configuration☺
   case $show_left_icon in
     smiley)
-      left_icon=" Pheon Dev";;
+      left_icon="";;
     session)
       left_icon="#S";;
     window)
@@ -155,7 +156,7 @@ main()
   tmux set-option -g status-style "bg=${dark_gray},fg=${white}"
 
   # Status left
-    tmux set-option -g status-left "#[bg=${t_blue8},fg=${dark_gray}]#{?client_prefix,#[bg=${t_purple}],} ${left_icon}"
+    tmux set-option -g status-left "#[bg=${black_one},fg=${t_fg_gutter}]#{?client_prefix,#[fg=${t_blue8}],} ${left_icon}"
 
   # Status right
   tmux set-option -g status-right ""
