@@ -96,7 +96,7 @@ battery_status()
       echo '●'
       ;;
     *)
-      echo '■'
+      echo '●'
       ;;
   esac
   ### Old if statements didn't work on BSD, they're probably not POSIX compliant, not sure

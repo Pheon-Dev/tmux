@@ -34,7 +34,7 @@ main()
   grey_three='#3a3a3a'
   grey_one='#4e4e4e'
   gray='#44475a'
-  t_fg_gutter='#3b4261'
+  t_fg_gutter='#505050'
   grey_two='#666666'
   grey='#7f7f7f'
   t_blue7='#394b70'
@@ -47,7 +47,7 @@ main()
   t_purple2='#c66bfe'
   t_purple='#c678dd'
   pink='#ff79c6'
-  red='#f02130'
+  red='#f7101b'
   t_magenta2='#ff007c'
   t_dark5='#737aa2'
   t_fg_dark='#a9b1d6'
@@ -156,7 +156,7 @@ main()
   tmux set-option -g status-style "bg=${dark_gray},fg=${white}"
 
   # Status left
-    tmux set-option -g status-left "#[bg=${black_one},fg=${grey}]#{?client_prefix,#[fg=${t_blue8}],} ${left_icon}"
+    tmux set-option -g status-left "#[bg=${black_one},fg=${t_fg_gutter}]#{?client_prefix,#[fg=${pink}],} ${left_icon}"
 
   # Status right
   tmux set-option -g status-right ""
@@ -239,7 +239,7 @@ main()
   # Window option
     tmux set-window-option -g window-status-current-format "#[fg=${t_blue8},bg=${black_one}] #I #W${current_flags} "
 
-  tmux set-window-option -g window-status-format "#[fg=${t_fg_gutter}]#[bg=${black_one}] #I #W${flags}"
+  tmux set-window-option -g window-status-format "#[fg=${grey}]#[bg=${black_one}] #I #W${flags}"
   tmux set-window-option -g window-status-activity-style "bold"
   tmux set-window-option -g window-status-bell-style "bold"
 }
