@@ -83,7 +83,7 @@ main()
   # Handle left icon configuration☺
   case $show_left_icon in
     smiley)
-      left_icon="";;
+      left_icon="";;
     session)
       left_icon="#S";;
     window)
