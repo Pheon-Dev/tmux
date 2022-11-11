@@ -29,8 +29,8 @@ main()
 
   # Dracula Color Pallette
   black='#000000'
-  black_one='#24283b'
-  dark_gray='#24283b'
+  black_one='#2e2e2e'
+  dark_gray='#2e2e2e'
   grey_three='#3a3a3a'
   grey_one='#4e4e4e'
   gray='#44475a'
