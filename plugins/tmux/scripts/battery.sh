@@ -90,13 +90,13 @@ battery_status()
       echo '◌'
       ;;
     high|Full)
-      echo '●'
+      echo ''
       ;;
     charging|Charging)
-      echo '●'
+      echo ''
       ;;
     *)
-      echo '●'
+      echo ''
       ;;
   esac
   ### Old if statements didn't work on BSD, they're probably not POSIX compliant, not sure
