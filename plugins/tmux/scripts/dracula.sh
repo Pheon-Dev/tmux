@@ -28,10 +28,10 @@ main()
   IFS=' ' read -r -a plugins <<< $(get_tmux_option "@dracula-plugins" "battery network weather")
 
   # Dracula Color Pallette
-  black='#000000'
-  black_one='#2e2e2e'
-  dark_gray='#2e2e2e'
-  grey_three='#3a3a3a'
+  black='#21222c'
+  black_one='#21222c'
+  dark_gray='#21222c'
+  grey_three='#282a36'
   grey_one='#4e4e4e'
   gray='#44475a'
   t_fg_gutter='#505050'
