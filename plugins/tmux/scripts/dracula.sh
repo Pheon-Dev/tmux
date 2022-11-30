@@ -24,7 +24,7 @@ main() {
     show_border_contrast=$(get_tmux_option "@dracula-border-contrast" false)
     show_day_month=$(get_tmux_option "@dracula-day-month" false)
     show_refresh=$(get_tmux_option "@dracula-refresh-rate" 5)
-    IFS=' ' read -r -a plugins <<< $(get_tmux_option "@dracula-plugins" "battery network weather")
+    IFS=' ' read -r -a plugins <<<$(get_tmux_option "@dracula-plugins" "battery network weather")
 
     # Dracula Color Pallette
     black='#21222c'
