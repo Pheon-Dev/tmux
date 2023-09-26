@@ -1,5 +1,0 @@
-/home/pheon	95
-/home/pheon	95
-/home/pheon	95
-/home/pheon/.tmux	79
-/home/pheon/.config/nvim	79
